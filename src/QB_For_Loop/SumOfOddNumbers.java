@@ -1,0 +1,30 @@
+package QB_For_Loop;
+
+import java.util.Scanner;
+
+public class SumOfOddNumbers {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.println("Enter Odd Number : ");
+		
+		int a = sc.nextInt();
+		
+		int sum = 0;
+		for(int i = 1; i<a; i+=2) {
+			if(a%2 !=0) {
+				sum+=i;
+				System.out.println(sum);
+
+			}
+			else {
+				System.out.println("It is not a Odd number ");
+			}
+			
+		}
+	}
+
+}
