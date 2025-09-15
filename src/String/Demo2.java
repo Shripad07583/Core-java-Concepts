@@ -21,6 +21,12 @@ public class Demo2 {
 		System.out.println(a.equals(a1));
 		System.out.println(a==a1);
 		
+		String a2 = "Shripad";
+		String b = new String("Shripad");
+		
+		System.out.println(a2==b);
+		System.out.println(a2.equals(b));
+		
 		
 	}
 

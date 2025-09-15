@@ -4,16 +4,15 @@ public class Palindrome {
 	
 	public static void main(String[] args) {
 		
-		String a = "Shripad";
+		String a = "Madam";
 		
-		String original = a;
 		String reverse = "";
 		
 		for(int i = a.length()-1; i>=0; i--) {
 			reverse += a.charAt(i);
 		}
 		
-		if(original.equalsIgnoreCase(reverse)) {
+		if(a.equalsIgnoreCase(reverse)) {
 			System.err.println("it ia a palindrome");
 		}
 		else {
